@@ -15,7 +15,7 @@ var reorderList = function (head) {
         return
     }
 
-    // middle of the list
+    // find middle of the list
     let fast = head
     let slow = head
 
@@ -24,7 +24,7 @@ var reorderList = function (head) {
         fast = fast.next.next
     }
 
-    //revrse later half
+    // reverse later half of list
     let curr = slow
     let prev = null
 
@@ -35,7 +35,7 @@ var reorderList = function (head) {
         curr = next
     }
 
-    //merge 1st and 2nd half alternatively
+    // merge 1st and 2nd half alternatively
     first = head
     second = prev // prev holds the reversed 2nd half
 
