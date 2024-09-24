@@ -32,3 +32,11 @@ var mergeTwoLists = function (list1, list2) {
 
     return start.next
 };
+
+/*
+Time and Space Complexity
+
+Time Complexity: O(N + M), where N and M are the lengths of list1 and list2, respectively. Each node is visited exactly once.
+
+Space Complexity: O(1), as it only uses a few extra pointers and modifies the input lists in place without using additional data structures.
+*/
