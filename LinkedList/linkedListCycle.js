@@ -10,6 +10,8 @@
  * @param {ListNode} head
  * @return {boolean}
  */
+
+//Using Floyd's Tortoise and Hare algorithm
 var hasCycle = function (head) {
 
     if (head === null) {
